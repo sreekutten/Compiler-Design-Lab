@@ -29,6 +29,7 @@ int main() {
         printf("First(%c) = {", c);
         for (i = 0; i < m; i++)
             printf("%c", f[i]);
+        
         printf("}\n");
         
         m = 0;  // Reset for FOLLOW computation
